@@ -1,4 +1,12 @@
-```mermaid
-flowchart LR
-    A[開始] --> B[處理]
-    B --> C[結束]
+# 3D 模型測試（最小三角形）
+
+```stl
+solid triangle
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 0 1 0
+    endloop
+  endfacet
+endsolid triangle
